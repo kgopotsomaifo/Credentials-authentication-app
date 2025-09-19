@@ -3,7 +3,7 @@ const User = require("./models/user");
 const Credential = require("./models/credential");
 
 const mongoURI =
-  "mongodb+srv://maifokgopotso:ISQn0RjPqeSeed6A@clustercooltech.5tdx6.mongodb.net/cooltech?retryWrites=true&w=majority";
+  "mongodb+srv://@clustercooltech.5tdx6.mongodb.net/cooltech?retryWrites=true&w=majority";
 
 // Connect to the MongoDB database
 const connect = async () => {
@@ -80,3 +80,4 @@ User.insertMany(sampleUserData)
     mongoose.disconnect();
     console.log("Disconnected from MongoDB");
   });
+
