@@ -40,7 +40,7 @@ Before you can use the backend of this project, you'll need to install Express a
 That's it. Now you're ready to use the Authentication App
 
 ### Usage
-When both the backend and frontend server are started, go to http://localhost:3000 to access the frontend. 
+When both the backend and frontend server are started, go to http://localhost:5000 to access the frontend. 
 The frontend of the app provides a user-friendly interface with the following components:
 
 - **Login and Registration Pages:** These pages allow users to register or log in. It will take the user to their Dashboard upon successful login, or to the login page upon successful login. These pages are accessed with /login and /registration
