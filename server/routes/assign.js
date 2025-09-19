@@ -96,9 +96,6 @@ router.post("/users/unassign", verifyToken, async (req, res) => {
     if (indexOu !== -1) user.ou.splice(indexOu, 1);
     if (indexDiv !== -1) user.division.splice(indexDiv, 1);
 
-    // below deletes whole array or the first item in the array
-    // user.ou.splice(assignedOU, 1)
-    // user.division.splice(assignedDivision, 1)
     user.role = assignedRole;
     
 
@@ -113,3 +110,4 @@ router.post("/users/unassign", verifyToken, async (req, res) => {
 });
 
 module.exports = router;
+
