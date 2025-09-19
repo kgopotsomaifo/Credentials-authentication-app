@@ -15,13 +15,11 @@ const credentialSchema = new Schema({
     required: true,
   },
   division: {
-    // type: Schema.Types.ObjectId,
     type: String,
     ref: "Divsion", // Reference to the Division model
     required: true,
   },
   ou: {
-    // type: Schema.Types.ObjectId,
     type: String,
     ref: "OU", // Reference to the OU model
     required: true,
@@ -29,3 +27,4 @@ const credentialSchema = new Schema({
 });
 
 module.exports = mongoose.model("Credential", credentialSchema);
+
