@@ -1,0 +1,77 @@
+/* Styling for all the forms (add/update/assign) */
+.submit-form {
+  width: 33.33%;
+  background-color: white;
+  color: #118ab2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.submit-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input and select styling */
+.submit-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  color: #000;
+  outline: 2px solid #118ab2;
+}
+
+.submit-form select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  outline: 2px solid #118ab2;
+  margin: 10px;
+}
+
+/* Styling buttons */
+
+.submit-form button {
+  background-color: #118ab2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: 2px solid #118ab2;
+}
+
+.submit-form button:hover {
+  background-color: white;
+  color: #118ab2;
+  outline: 2px solid #118ab2;
+}
+
+.submit-form a {
+  color: #118ab2;
+  text-decoration: none;
+}
+
+.submit-form p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}

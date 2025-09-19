@@ -1,0 +1,62 @@
+/* Styling for the login and register form */
+
+.loginRegisterForm {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: #118ab2 2px solid;
+}
+
+.loginRegisterForm h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #118ab2;
+}
+
+.loginRegisterForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginRegisterForm input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #118ab2;
+  border-radius: 5px;
+  background-color: white;
+  color: #156e8a;
+  outline: none;
+}
+
+/* Button styling */
+.loginRegisterForm button {
+  background-color: #118ab2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.loginRegisterForm button:hover {
+  background-color: #156e8a;
+}
+
+.loginRegisterForm p {
+  text-align: center;
+  color: #ee6c4d;
+}
+
+/* Styling for the link */
+.loginRegisterForm a {
+  color: #118ab2;
+  text-decoration: none;
+}
+
+.loginRegisterForm a:hover {
+  text-decoration: underline;
+}
