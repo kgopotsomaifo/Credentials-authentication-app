@@ -7,14 +7,12 @@ const userSchema = new Schema({
   role: String,
   ou: [
     {
-      // type: Schema.Types.ObjectId,
       type: String,
       ref: "OU", // Refer to the OU model
     },
   ],
   division: [
     {
-      // type: Schema.Types.ObjectId,
       type: String,
       ref: "Division", // Refer to the Division model
     },
@@ -22,3 +20,4 @@ const userSchema = new Schema({
 });
 
 module.exports = mongoose.model("User", userSchema);
+
