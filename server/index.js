@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 const mongoURI =
-  "mongodb+srv://maifokgopotso:ISQn0RjPqeSeed6A@clustercooltech.5tdx6.mongodb.net/cooltech?retryWrites=true&w=majority";
+  "mongodb+srv:clustercooltech.5tdx6.mongodb.net/cooltech?retryWrites=true&w=majority";
 
 // Connect to MongoDB
 mongoose
@@ -37,4 +37,5 @@ app.use(userRoute);
 app.listen(port, () => {
   console.log(`Server is running on port http://localhost:${port}`);
 });
+
 
