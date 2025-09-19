@@ -1,0 +1,4 @@
+User details for login
+Normal = {username: user, password: userPwd}
+Manager = {username: user1, password: password1}
+Admin = {username: user3, password: password3}
